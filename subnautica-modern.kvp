@@ -26,15 +26,14 @@ App.DisplayName=Subnautica (Modern)
 App.RootDir=./subnautica/
 App.BaseDirectory=./subnautica/264710/
 App.SteamWorkshopDownloadLocation={{$FullBaseDir}}undefined
-App.ExecutableWin=264710\nitrox\NitroxServer-Subnautica.exe
 App.ExecutableLinux=/usr/bin/mono
 App.WorkingDir=264710
-App.LinuxCommandLineArgs=./nitrox/NitroxServer-Subnautica.exe
+App.LinuxCommandLineArgs=./nitrox/NitroxServer-Subnautica
 App.WindowsCommandLineArgs=
 App.CommandLineArgs={{$PlatformArgs}} {{$FormattedArgs}}
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
-App.EnvironmentVariables={"SUBNAUTICA_INSTALLATION_PATH":"{{ClientFilesLocationMode}}","NITROX_LAUNCHER_PATH":"{{$FullBaseDir}}nitrox","SteamAppId":"264710"}
+App.EnvironmentVariables={"SUBNAUTICA_INSTALLATION_PATH":"{{$FullBaseDir}}","NITROX_LAUNCHER_PATH":"{{$FullBaseDir}}nitrox","SteamAppId":"264710"}
 App.CommandLineParameterFormat={0}={1}
 App.CommandLineParameterDelimiter= 
 App.ExitMethod=String

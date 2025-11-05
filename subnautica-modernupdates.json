@@ -1,5 +1,14 @@
 [
     {
+        "UpdateStageName": "Downloading Subnautica game files from steam",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "264710",
+        "UpdateSourceArgs": "264710",
+        "ForceDownloadPlatform": "Windows",
+        "SkipOnFailure": false
+    },
+    {
         "UpdateStageName": "Nitrox Directory Creation",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "CreateDirectory",
@@ -15,16 +24,6 @@
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
-        "SkipOnFailure": false
-    },
-    {
-        "UpdateStageName": "Server.cfg File Download",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://raw.githubusercontent.com/Brike70/AMP_Subnautica/refs/heads/main/subnautica-modernserver.cfg",
-        "UpdateSourceArgs": "server.cfg",
-        "UpdateSourceTarget": "{{$FullBaseDir}}",
-        "OverwriteExistingFiles": false,
         "SkipOnFailure": false
     }
 ]
