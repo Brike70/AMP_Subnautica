@@ -25,23 +25,5 @@
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "SkipOnFailure": false
-    },
-    {
-        "UpdateStageName": "DotNetCore Script Download",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://raw.githubusercontent.com/Brike70/AMP_Subnautica/refs/heads/main/installnet.sh",
-        "UpdateSourceArgs": "installnet.sh",
-        "UpdateSourceTarget": "{{$FullBaseDir}}",
-        "OverwriteExistingFiles": true,
-        "SkipOnFailure": false
-    },
-    {
-        "UpdateStageName": "Install DotNetCore",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "Executable",
-        "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "{{$FullBaseDir}}installnet.sh",
-        "SkipOnFailure": false
     }
 ]
