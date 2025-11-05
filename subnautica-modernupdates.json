@@ -16,6 +16,13 @@
         "SkipOnFailure": false
     },
     {
+        "UpdateStageName": "Config Directory Creation",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "/AMP/.config",
+        "SkipOnFailure": false
+    },
+    {
         "UpdateStageName": "Nitrox Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
@@ -24,6 +31,14 @@
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Make Nitrox Executable",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "chmod",
+        "UpdateSourceArgs": "+x {{$FullBaseDir}}nitrox/NitroxServer-Subnautica",
         "SkipOnFailure": false
     }
 ]
