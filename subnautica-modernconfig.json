@@ -335,7 +335,7 @@
         "FieldName": "ClientFilesLocationMode",
         "InputType": "enum",
         "ParamFieldName": "ClientFilesLocationMode",
-        "DefaultValue": "",
+        "DefaultValue": "Default",
         "Required": true,
         "EnumValues": {
             "": "--Please select--",
