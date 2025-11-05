@@ -1,6 +1,6 @@
 Meta.DisplayName=Subnautica (Modern)
 Meta.Description=Nitrox Multiplayer Mod for Subnautica (Modern)
-Meta.OS=Windows, Linux
+Meta.OS=Linux
 Meta.AarchSupport=NotSupported
 Meta.Arch=x86_64
 Meta.Author=Brike (Based on Greelan)
@@ -20,7 +20,7 @@ Meta.Prerequisites=[]
 Meta.ExtraContainerPackages=[]
 Meta.ConfigReleaseState=NotSpecified
 Meta.NoCommercialUsage=False
-Meta.ConfigVersion=4
+Meta.ConfigVersion=1
 Meta.AppConfigId=08f989f1-8def-4da2-a21c-f589fc3c6073
 App.DisplayName=Subnautica (Modern)
 App.RootDir=./subnautica/
