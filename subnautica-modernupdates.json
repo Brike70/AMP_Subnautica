@@ -21,7 +21,7 @@
         "UpdateStageName": "Server.cfg File Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/subnautica-modernserver.cfg",
+        "UpdateSourceData": "https://raw.githubusercontent.com/Brike70/AMP_Subnautica/refs/heads/main/subnautica-modernserver.cfg",
         "UpdateSourceArgs": "server.cfg",
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "OverwriteExistingFiles": false,
