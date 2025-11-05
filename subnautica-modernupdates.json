@@ -30,7 +30,7 @@
         "UpdateStageName": "DotNetCore Script Download",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/dayz-experimentalmanagemods.sh",
+        "UpdateSourceData": "https://raw.githubusercontent.com/Brike70/AMP_Subnautica/refs/heads/main/installnet.sh",
         "UpdateSourceArgs": "installnet.sh",
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "OverwriteExistingFiles": true,
