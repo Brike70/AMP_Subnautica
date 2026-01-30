@@ -26,7 +26,7 @@ App.DisplayName=Subnautica (Modern)
 App.RootDir=./subnautica/
 App.BaseDirectory=./subnautica/264710/
 App.SteamWorkshopDownloadLocation={{$FullBaseDir}}undefined
-App.ExecutableLinux={{$FullBaseDir}}nitrox/NitroxServer-Subnautica
+App.ExecutableLinux={{$FullBaseDir}}nitrox/Nitrox.Server.Subnautica
 App.WorkingDir=264710
 App.LinuxCommandLineArgs=
 App.WindowsCommandLineArgs=
@@ -35,7 +35,7 @@ App.UseLinuxIOREDIR=False
 App.AppSettings={}
 App.EnvironmentVariables={"SUBNAUTICA_INSTALLATION_PATH":"{{$FullBaseDir}}","NITROX_LAUNCHER_PATH":"{{$FullBaseDir}}nitrox","HOME":"/AMP","SteamAppId":"264710"}
 App.CommandLineParameterFormat={0}={1}
-App.CommandLineParameterDelimiter= 
+App.CommandLineParameterDelimiter=
 App.ExitMethod=String
 App.ExitTimeout=30
 App.ExitString=stop
