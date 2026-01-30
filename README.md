@@ -2,7 +2,8 @@
 
 ## Intro
 
-Based off the legacy template from the offical repo, this should hopefully allow people to run the newer Nitrox version.
+Based off the legacy template from the offical repo, this should hopefully
+allow people to run the newer Nitrox version.
 
 ## Setup
 
@@ -12,4 +13,7 @@ Add this repo:
 
 to your repo sources in:
 
-`Configuration --> Instance Deployment --> Instance Management --> Configuration Repositories`
+`Configuration -->
+Instance Deployment -->
+Instance Management -->
+Configuration Repositories`

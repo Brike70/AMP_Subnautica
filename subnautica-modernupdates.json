@@ -1,44 +1,44 @@
 [
-    {
-        "UpdateStageName": "Downloading Subnautica game files from steam",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "264710",
-        "UpdateSourceArgs": "264710",
-        "ForceDownloadPlatform": "Windows",
-        "SkipOnFailure": false
-    },
-    {
-        "UpdateStageName": "Nitrox Directory Creation",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "CreateDirectory",
-        "UpdateSourceArgs": "{{$FullBaseDir}}nitrox",
-        "SkipOnFailure": false
-    },
-    {
-        "UpdateStageName": "Config Directory Creation",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "CreateDirectory",
-        "UpdateSourceArgs": "/AMP/.config",
-        "SkipOnFailure": false
-    },
-    {
-        "UpdateStageName": "Nitrox Download",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://github.com/SubnauticaNitrox/Nitrox/releases/download/1.8.0.1/Nitrox_1.8.0.1_linux_x64.zip",
-        "UpdateSourceTarget": "{{$FullBaseDir}}nitrox",
-        "UnzipUpdateSource": true,
-        "OverwriteExistingFiles": true,
-        "DeleteAfterExtract": true,
-        "SkipOnFailure": false
-    },
-    {
-        "UpdateStageName": "Make Nitrox Executable",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "Executable",
-        "UpdateSourceData": "chmod",
-        "UpdateSourceArgs": "+x {{$FullBaseDir}}nitrox/NitroxServer-Subnautica",
-        "SkipOnFailure": false
-    }
+  {
+    "UpdateStageName": "Downloading Subnautica game files from steam",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "SteamCMD",
+    "UpdateSourceData": "264710",
+    "UpdateSourceArgs": "264710",
+    "ForceDownloadPlatform": "Windows",
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Nitrox Directory Creation",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "CreateDirectory",
+    "UpdateSourceArgs": "{{$FullBaseDir}}nitrox",
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Config Directory Creation",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "CreateDirectory",
+    "UpdateSourceArgs": "/AMP/.config",
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Nitrox Download",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://github.com/SubnauticaNitrox/Nitrox/releases/download/1.8.1.0/Nitrox_1.8.1.0_linux_x64.zip",
+    "UpdateSourceTarget": "{{$FullBaseDir}}nitrox",
+    "UnzipUpdateSource": true,
+    "OverwriteExistingFiles": true,
+    "DeleteAfterExtract": true,
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Make Nitrox Executable",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "Executable",
+    "UpdateSourceData": "chmod",
+    "UpdateSourceArgs": "+x {{$FullBaseDir}}nitrox/NitroxServer-Subnautica",
+    "SkipOnFailure": false
+  }
 ]
