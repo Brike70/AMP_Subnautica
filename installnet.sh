@@ -14,4 +14,4 @@ sudo apt-get update
 
 echo "Install DotNetCore"
 
-sudo apt-get install -y dotnet-runtime-10.0
+sudo apt-get install -y dotnet-runtime-9.0

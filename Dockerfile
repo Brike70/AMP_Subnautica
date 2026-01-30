@@ -8,4 +8,4 @@ RUN rm packages-microsoft-prod.deb
 
 RUN apt-get update
 
-RUN apt-get install -y dotnet-runtime-10.0
+RUN apt-get install -y dotnet-runtime-9.0
