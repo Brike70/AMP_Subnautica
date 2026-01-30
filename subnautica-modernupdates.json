@@ -38,7 +38,7 @@
     "UpdateSourcePlatform": "Linux",
     "UpdateSource": "Executable",
     "UpdateSourceData": "chmod",
-    "UpdateSourceArgs": "+x {{$FullBaseDir}}nitrox/NitroxServer-Subnautica",
+    "UpdateSourceArgs": "+x {{$FullBaseDir}}nitrox/Nitrox.Server.Subnautica",
     "SkipOnFailure": false
   }
 ]
